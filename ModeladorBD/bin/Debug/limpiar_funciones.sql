@@ -1,0 +1,28 @@
+﻿set search_path to public;
+
+DROP FUNCTION IF EXISTS bd_comparar_esquemas(varchar , varchar , varchar , varchar);
+DROP FUNCTION IF EXISTS bd_comparar_esquemas_new(varchar , varchar);
+DROP FUNCTION IF EXISTS bd_crear_estructura_base(varchar , varchar , varchar , varchar , integer , integer , integer);
+DROP FUNCTION IF EXISTS bd_crear_estructura_columna(varchar , varchar , varchar);
+DROP FUNCTION IF EXISTS bd_crear_estructura_comentario_tabla(varchar , varchar);
+DROP FUNCTION IF EXISTS bd_crear_estructura_comparar_column(varchar , varchar);
+DROP FUNCTION IF EXISTS bd_crear_estructura_drop_column(varchar , varchar , varchar);
+DROP FUNCTION IF EXISTS bd_crear_estructura_drop_table(varchar , varchar);
+DROP FUNCTION IF EXISTS bd_crear_estructura_eliminacio_vista(varchar);
+DROP FUNCTION IF EXISTS bd_crear_estructura_fk(varchar , varchar , varchar , varchar);
+DROP FUNCTION IF EXISTS bd_crear_estructura_funciones(varchar , varchar , boolean);
+DROP FUNCTION IF EXISTS bd_crear_estructura_index(varchar , varchar , varchar);
+DROP FUNCTION IF EXISTS bd_crear_estructura_pk_uk(varchar , varchar , varchar , varchar , varchar);
+DROP FUNCTION IF EXISTS bd_crear_estructura_tabla(varchar , varchar);
+DROP FUNCTION IF EXISTS bd_crear_estructura_trigger(varchar , varchar , boolean);
+DROP FUNCTION IF EXISTS bd_crear_estructura_trigger_funciones(varchar , varchar);
+DROP FUNCTION IF EXISTS bd_crear_estructura_vista(varchar);
+DROP FUNCTION IF EXISTS bd_estrucura_eliminacion_funciones(varchar , varchar);
+DROP FUNCTION IF EXISTS borrar_tablas_relaciones(varchar);
+DROP FUNCTION IF EXISTS generar_create_drop_index(varchar);
+DROP FUNCTION IF EXISTS generar_create_drop_trigger(varchar);
+DROP FUNCTION IF EXISTS generar_create_drop_trigger_function(varchar);
+DROP FUNCTION IF EXISTS generar_create_trigger_index(varchar);
+DROP FUNCTION IF EXISTS generar_empresa_nueva(varchar , varchar);
+DROP FUNCTION IF EXISTS generar_empresa_nueva_texto(varchar , varchar);
+DROP FUNCTION IF EXISTS iif(boolean, text, text);
